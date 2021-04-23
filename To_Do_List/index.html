@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista rzeczy do zrobienia</title>
+    <meta charset="UTF-8">
+    <meta author="Paweł Rosa">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid head-title">
+        <div class="container">
+            <h2>Lista rzeczy do zrobienia</h2>
+        </div>
+    </div>
+    <div class="container">
+        <label for="topic" class="title">Tytuł</label><br>
+        <input type="text" id="topic"><br>
+        <label for="content" class="title">Treść</label><br>
+        <div class="add-btn-area">
+            <button class="add-btn" onclick="add_item()">
+                <div class="check-line-1"></div>
+                <div class="check-line-2"></div>
+            </button>
+        </div>
+        <input type="text" id="content" size="100" class="contents">
+    </div>
+    <div class="container" id="to_do_elements">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

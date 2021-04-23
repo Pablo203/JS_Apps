@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background-color: #228046;
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.head-title{
+    border: 1px solid black;
+}
+
+.title{
+    color: white;
+}
+
+.contents{
+    display:inline-block;
+    padding:15px 10px;
+    line-height:200%;
+}
+
+.thing{
+    background-color: #adfcff;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+
+.thing-title{
+    color: black;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.thing-content{
+    color: black;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.add-btn-area{
+    border: none;
+    padding: 22px 22px;
+    line-height: 200%;
+    margin-top: -2%;
+    float: right;
+}
+
+.add-btn{
+    background-color: #27da2f;
+    height: 100%;
+    width: 30%;
+    border: none;
+    padding: 30px 35px;
+    line-height: 200%;
+    position: relative;
+}
+.check-line-1{
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    transform: rotate(45deg);
+    margin-left: -40%;
+    margin-top: 5%;
+}
+
+.check-line-2{
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    transform: rotate(-45deg);
+    margin-top: -5%;
+    margin-left: -20%;
+}
+
+.btn-area{
+    float: right;
+    margin-top: -1%;
+    padding: 22px 22px;
+    line-height: 200%;
+
+}
+.delete-btn{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    padding: 33px 33px;
+    line-height: 200%;
+    position: relative;
+    border: none;
+}
+
+.cross-line-1{
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    transform:rotate(45deg);
+    margin-left: -45%;
+    margin-top: -10%;
+}
+
+.cross-line-2{
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    margin-top: 1%;
+    transform: rotate(-45deg);
+    margin-top: -10%;
+    margin-left: -45%;
+}

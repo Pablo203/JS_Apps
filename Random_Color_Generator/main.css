@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.box-holder{
+    background-color: white;
+    margin-top: 20%;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.color_val{
+    padding: 7%;
+    margin-left: 33%;
+}
+
+.btn{
+    background-color: #82daf0;
+    margin-left: 40%;
+    padding: 3% 7% 3% 7%;
+}

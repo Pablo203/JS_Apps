@@ -46,3 +46,42 @@ body{
     height: 10%;
     border: 1px solid black;
 }
+
+.chat-option-photo{
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.chat-option-text{
+    border: 1px solid black;
+    height: 100%;
+    width: 73.5%;
+    float: left;
+}
+
+.chat-option-username{
+    border: 1px solid black;
+    width: 45%;
+    height: 30%;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.username-option-text{
+    font-size: 2.5vh;
+}
+
+.chat-option-lasttext{
+    border: 1px solid black;
+    width: 70%;
+    height: 35%;
+    margin-left: 10%;
+}
+
+.message-option-text{
+    margin-top: 4%;
+    font-size: 1.8vh;
+}
